@@ -6,6 +6,9 @@
 
 body{
     font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.5;
 } 
 
 /* HEADER SECTION-------- */
@@ -18,7 +21,7 @@ body{
 
 #header{
     display: flex;
-    background-color: #000;
+    background-color: rgb(20, 19, 19);
     height: 60px;
     width: 100%;
     position: fixed;
@@ -86,4 +89,91 @@ body{
 
 /* CONTENT SECTION-------------- */
 
+#content{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#content #main-container {
+    width: 60%;
+    padding-right: 25px;
+    padding-top: 20px;
+}
+
+#content #main{
+    position: fixed;
+    width: 46%;
+}
+
+#content #main .activity-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+#content #main .react-section{
+    display: flex;
+}
+
+#content #main .activity-section .views{
+    display: block;
+    padding-top: 10px;
+    color: rgb(179, 170, 170);
+}
+
+#content #main .react-section .action{
+    padding: 8px 10px;
+}
+
+#content #main .react-section .icon{
+    margin-right: 10px;
+}
+
+/* --------SIDEBAR SECTION------ */
+
+#content #sidebar{
+    width: 40%;
+    padding-top: 10px;
+}
+
+#content #sidebar #btn{
+    margin-bottom: 15px;
+}
+
+#content #sidebar #btn #btn-all{
+    border-radius: 50px;
+    padding: 8px 15px;
+    color: rgb(128, 119, 119);
+}
+
+#content #sidebar #btn #btn-recently{
+    border-radius: 50px;
+    padding: 8px 15px;
+    background-color: rgb(48, 47, 47);
+    color: rgb(209, 205, 205);
+    border: 1px solid rgb(73, 69, 69);
+    margin-left: 5px;
+}
+
+#content #sidebar .preview{
+    display: flex;
+    height: 170px;
+    margin-bottom: px;
+}
+
+#content #sidebar .preview .body{
+    padding-left: 10px;
+}
+
+#content #sidebar .preview .body .title{
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+#content #sidebar .preview .body .views{
+    font-size: 11px;
+    margin-top: 15px;
+    color: rgb(179, 170, 170);
+}
 
